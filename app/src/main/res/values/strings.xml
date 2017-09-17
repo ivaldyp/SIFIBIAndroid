@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">SIFIBI</string>
+    <string name="title_activity_profile_pic">PIC Profile</string>
+    <string name="title_activity_profile_pj">Penanggung Jawab Profile</string>
+    <string name="title_activity_profile_admin">Admin Profile</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="date_label_set">Press the button to set the date</string>
+    <string name="date_button_set">Waktu Event</string>
+    <string name="date_view_set">The Date is: </string>
+    <string name="date_selected"></string>
+</resources>

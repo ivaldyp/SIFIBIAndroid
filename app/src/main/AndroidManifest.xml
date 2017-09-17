@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="bankindonesia.coba">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- android:icon="@mipmap/ic_launcher" -->
+    <application
+        android:name=".other.Config"
+        android:allowBackup="true"
+        android:icon="@drawable/logobi"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.SplashActivity"
+            android:theme="@style/Theme.Design.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.LoginActivity" />
+        <activity android:name=".activity.SignupActivity" />
+        <activity
+            android:name=".activity.ProfilePICActivity"
+            android:label="@string/title_activity_profile_pic"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.ProfilePJActivity"
+            android:label="@string/title_activity_profile_pj"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.ProfileAdminActivity"
+            android:label="@string/title_activity_profile_admin"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".activity.UpdateKehadiranActivity" />
+        <activity android:name=".activity.JadwalDetailKehadiranActivity" />
+        <activity android:name=".activity.JadwalDetailKehadiran2Activity" />
+        <activity android:name=".activity.JadwalDetailPenyelenggaraanActivity" />
+        <activity android:name=".activity.JadwalDetailPenyelenggaraan2Activity" />
+        <activity android:name=".activity.UpdatePenyelenggaraanActivity" />
+        <activity android:name=".activity.TabelDetailLaporanActivity" />
+        <activity android:name=".activity.UpdateLaporanActivity" />
+        <activity android:name=".activity.UpdateUserActivity" />
+        <activity android:name=".activity.UserDetailActivity" />
+        <activity android:name=".activity.UserDetailActivity2" />
+        <activity android:name=".activity.ViewDetailLaporanActivity" />
+        <activity android:name=".activity.TabelDetailLaporanVerifikasiActivity" />
+        <activity android:name=".activity.SearchUserActivity" />
+        <activity android:name=".activity.SearchLaporanActivity" />
+        <activity android:name=".activity.SearchKehadiranActivity" />
+        <activity android:name=".activity.SearchPenyelenggaraanActivity"></activity>
+    </application>
+
+</manifest>

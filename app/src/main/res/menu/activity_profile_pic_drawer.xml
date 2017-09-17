@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/menu_home"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="Beranda" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_menu_logout"
+            android:title="Log Out" />
+    </group>
+
+    <item android:title="Rencana Kehadiran">
+        <menu>
+            <group
+                android:id="@+id/menu_1"
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_insertkehadiran"
+                    android:icon="@drawable/ic_menu_insertcalendar"
+                    android:title="Insert data" />
+                <item
+                    android:id="@+id/nav_updatekehadiran"
+                    android:icon="@drawable/ic_menu_updatecalendar"
+                    android:title="Jadwal Anda" />
+                <item
+                    android:id="@+id/nav_viewkehadiran"
+                    android:icon="@drawable/ic_menu_viewcalendar"
+                    android:title="Kalender" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Rencana Penyelenggaraan">
+        <menu>
+            <group
+                android:id="@+id/menu_2"
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_insertpenyelenggaraan"
+                    android:icon="@drawable/ic_menu_insertcalendar"
+                    android:title="Insert data" />
+                <item
+                    android:id="@+id/nav_updatepenyelenggaraan"
+                    android:icon="@drawable/ic_menu_updatecalendar"
+                    android:title="Jadwal Anda" />
+                <item
+                    android:id="@+id/nav_viewpenyelenggaraan"
+                    android:icon="@drawable/ic_menu_viewcalendar"
+                    android:title="Kalender" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Laporan Hasil Sidang">
+        <menu>
+            <group
+                android:id="@+id/menu_3"
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_insertlaporan"
+                    android:icon="@drawable/ic_menu_insertfile"
+                    android:title="Insert Data" />
+                <item
+                    android:id="@+id/nav_updatelaporan"
+                    android:icon="@drawable/ic_menu_updatefile"
+                    android:title="Laporan Anda" />
+                <item
+                    android:id="@+id/nav_viewlaporan"
+                    android:icon="@drawable/ic_menu_viewfile"
+                    android:title="Lihat Data" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

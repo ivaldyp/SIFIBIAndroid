@@ -1,0 +1,70 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorcoba"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="bankindonesia.coba.fragment.kehadiran.ViewKehadiranFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textmonth"
+            android:background="#357df2"
+            android:textColor="#fff"
+            android:textAlignment="center"
+            android:textSize="30dp"/>
+
+        <!--app:compactCalendarBackgroundColor="#ffe95451"-->
+
+        <!-- CalendarView with monday as first day and minmal and maximal day -->
+        <com.github.sundeepk.compactcalendarview.CompactCalendarView
+            android:id="@+id/compactcalendar_view"
+            android:layout_width="fill_parent"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_height="250dp"
+            app:compactCalendarTargetHeight="250dp"
+            app:compactCalendarTextSize="12sp"
+            app:compactCalendarBackgroundColor="#357df2"
+            app:compactCalendarTextColor="#fff"
+            app:compactCalendarCurrentSelectedDayBackgroundColor="#57719b"
+            app:compactCalendarCurrentDayBackgroundColor="#B71C1C"
+            app:compactCalendarMultiEventIndicatorColor="#fff" />
+            <ListView android:id="@+id/mobile_list"
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                android:dividerHeight="2px">
+            </ListView>
+
+    </LinearLayout>
+    <!--<LinearLayout-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="0.1"-->
+        <!--&gt;-->
+
+
+
+        <!--<ListView android:id="@+id/ListView01"-->
+            <!--android:layout_height="fill_parent"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:dividerHeight="2px">-->
+        <!--</ListView>-->
+
+        <!--<ListView-->
+            <!--android:id="@+id/mobile_list"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="100dp">-->
+        <!--</ListView>-->
+
+
+    <!--</LinearLayout>-->
+
+</FrameLayout>
